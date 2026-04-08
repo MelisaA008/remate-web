@@ -24,9 +24,13 @@
 <body>
 
 <!-- NAVBAR -->
-<nav class="navbar navbar-dark bg-dark">
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg">
   <div class="container">
-    <a class="navbar-brand" href="index.html">RemateDigital</a>
+    <img src="assets/img/logo dorado.png" alt="Logo" width="100" height="100">
+    <div>
+      <a href="index.html" class="btn btn-outline-light">Inicio</a>
+      <a href="contacto.html" class="btn btn-warning">Contacto</a>
+    </div>
   </div>
 </nav>
 
@@ -37,38 +41,40 @@
 </section>
 
 <!-- FLUJO -->
-<section class="container text-center">
-  <div class="row g-4">
+<section class="container">
+  <div class="row g-4 justify-content-center">
     
-    <div class="col-md-2">
-      <div class="card p-3 card-hover shadow">
-        <h5>1. Comprador</h5>
-        <p>Se identifica el comprador</p>
-      </div>
+    <div class="col-md-2 text-center">
+      <a href="comprador.html" class="text-decoration-none">
+        <div class="card p-3 card-hover shadow">
+          <h5>1. Comprador</h5>
+          <p>Se identifica el comprador</p>
+        </div>
+      </a>
     </div>
   
-    <div class="col-md-2">
+    <div class="col-md-2 text-center">
       <div class="card p-3 card-hover shadow">
         <h5>2. Venta</h5>
         <p>Se registra el lote y la oferta</p>
       </div>
     </div>
   
-    <div class="col-md-2">
+    <div class="col-md-2 text-center">
       <div class="card p-3 card-hover shadow">
         <h5>3. Caja</h5>
         <p>El monto aparece automáticamente</p>
       </div>
     </div>
   
-    <div class="col-md-2">
+    <div class="col-md-2 text-center">
       <div class="card p-3 card-hover shadow">
         <h5>4. Pago</h5>
         <p>Se valida sin errores</p>
       </div>
     </div>
   
-    <div class="col-md-2">
+    <div class="col-md-2 text-center">
       <div class="card p-3 card-hover shadow">
         <h5>5. Entrega</h5>
         <p>Se entrega el lote correcto</p>
@@ -78,56 +84,7 @@
   </div>
 </section>
 
-<!-- REGISTRO DE COMPRADOR -->
-<section class="container mt-5">
-  <h3 class="text-center mb-4">Registro de comprador</h3>
 
-  <div class="row justify-content-center">
-    <div class="col-md-4">
-
-      <div class="card shadow p-4">
-
-        <h5 class="mb-3">Nuevo comprador</h5>
-
-        <input class="form-control mb-2" placeholder="Nombre y apellido">
-        <input class="form-control mb-2" placeholder="DNI / Identificación">
-        <input class="form-control mb-3" placeholder="Teléfono">
-
-        <button class="btn btn-dark w-100">Registrar</button>
-
-      </div>
-
-    </div>
-  </div>
-</section>
-<!-- USO DE QR -->
-<section class="container mt-5 text-center">
-
-  <h3 class="mb-4">Identificación mediante código QR</h3>
-
-  <p class="mb-4">
-    Cada comprador registrado recibe un código QR único que permite identificarlo rápidamente durante el remate.
-  </p>
-
-  <div class="row justify-content-center">
-
-    <div class="col-md-4">
-      <div class="card p-4 shadow">
-
-        <h5>Escanear comprador</h5>
-
-        <div class="border p-4 mb-3">
-          📷 Área de escaneo QR
-        </div>
-
-        <p class="text-muted">
-          Al escanear, se cargan automáticamente los datos del comprador en la venta.
-        </p>
-
-      </div>
-    </div>
-
-  </div>
 
 </section>
 

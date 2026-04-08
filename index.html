@@ -17,8 +17,14 @@
     }
 
     .hero {
-      background: linear-gradient(135deg, #1f1f1f, #3a3a3a);
-      color: white;
+      background: linear-gradient(135deg, #0f0f0f 0%, #1c1c1c 45%, #2a2a2a 100%);
+      color: #f9d84f;
+    }
+
+    .hero img {
+      max-width: 250px;
+      width: 90%;
+      height: auto;
     }
 
     .btn-custom {
@@ -38,8 +44,7 @@
 <!-- NAVBAR -->
 <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
   <div class="container">
-    <a class="navbar-brand" href="#">RemateDigital</a>
-    <div>
+    <div class="ms-auto">
       <a href="index.html" class="btn btn-outline-light">Inicio</a>
       <a href="sistema.html" class="btn btn-outline-light">Sistema</a>
       <a href="contacto.html" class="btn btn-warning">Contacto</a>
@@ -47,31 +52,31 @@
   </div>
 </nav>
 
-<!-- HERO -->
-<section class="hero text-center p-5">
-  <h1 class="display-4 fw-bold">Remate en tiempo real</h1>
-  <p class="lead">“Una sola carga de datos. Menos errores. Más control.”</p>
+
+<section class="hero text-center p-3">
+  <img src="assets/img/logo dorado.png" alt="Logo" class="img-fluid mb-3" style="max-width: 200px;">
+  <p class="lead">“Una sola carga de datos. Todo sincronizado.”</p>
 </section>
 
 <!-- BENEFICIOS -->
 <section class="container mt-5">
-  <div class="row text-center g-4">
+  <div class="row g-4 justify-content-center">
 
-    <div class="col-md-4">
+    <div class="col-md-4 text-center">
       <div class="card p-4 card-hover shadow">
         <h4>🎯 Precisión</h4>
         <p>Eliminación total de errores manuales</p>
       </div>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-md-4 text-center">
       <div class="card p-4 card-hover shadow">
         <h4>⚡ Tiempo real</h4>
-          <p class="lead">Sincronización de las operaciones</p>
+          <p>Coordinación automática entre áreas</p>
       </div>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-md-4 text-center">
       <div class="card p-4 card-hover shadow">
         <h4>🔒 Control</h4>
         <p>Seguimiento completo del remate</p>

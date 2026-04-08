@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro de Comprador - RemateDigital</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+
+    .card-hover:hover {
+      transform: scale(1.05);
+      transition: 0.3s;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+  <div class="container">
+    <img src="assets/img/logo dorado.png" alt="Logo" width="100" height="100">
+    <div>
+      <a href="index.html" class="btn btn-outline-light">Inicio</a>
+      <a href="sistema.html" class="btn btn-outline-light">Sistema</a>
+      <a href="contacto.html" class="btn btn-warning">Contacto</a>
+    </div>
+  </div>
+</nav>
+
+<!-- REGISTRO DE COMPRADOR -->
+<section class="container mt-5">
+  <h3 class="text-center mb-4">Registro de comprador</h3>
+
+  <div class="row justify-content-center">
+    <div class="col-md-4">
+
+      <div class="card shadow p-4">
+
+        <h5 class="mb-3">Nuevo comprador</h5>
+
+        <input class="form-control mb-2" placeholder="Nombre y apellido">
+        <input class="form-control mb-2" placeholder="DNI / Identificación">
+        <input class="form-control mb-3" placeholder="Teléfono">
+
+        <button class="btn btn-dark w-100">Registrar</button>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- USO DE QR -->
+<section class="container mt-5 text-center">
+
+  <h3 class="mb-4">Identificación mediante código QR</h3>
+
+  <p class="mb-4">
+    Cada comprador registrado recibe un código QR único que permite identificarlo rápidamente durante el remate.
+  </p>
+
+  <div class="row justify-content-center">
+
+    <div class="col-md-4">
+      <div class="card p-4 shadow">
+
+        <h5>Escanear comprador</h5>
+
+        <div class="border p-4 mb-3">
+          📷 Área de escaneo QR
+        </div>
+
+        <p class="text-muted">
+          Al escanear, se cargan automáticamente los datos del comprador en la venta.
+        </p>
+
+      </div>
+    </div>
+
+  </div>
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center p-3 mt-5">
+  © 2026 RemateDigital | Desarrollado por Instanciar
+</footer>
+
+</body>
+</html>
